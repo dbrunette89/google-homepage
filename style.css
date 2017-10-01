@@ -1,7 +1,10 @@
 body {
-	background-color: rgb(165, 214, 167);
+	background-color: rgb(162,162,162);
+	font-family: arial,sans-serif;
+	font-size: 13px;
 }
 a {margin: 1%;
+	color: black;
 
 }
 
@@ -19,16 +22,26 @@ a {margin: 1%;
 	position: relative;
 	left: 35%;
 }
+ .google.apps {
+    display: block;
+    position: relative;
+    bottom: 6px;
+    height: 30px;
+    width: 30px;
+    background-image: url(https://ssl.gstatic.com/gb/images/i2_2ec824b0.png);
+  }
 form {
 	position: relative;
 	left: 10%;
 	width: 75%;
+	font-family: arial,sans-serif;
 }
 button {position: relative;
 left: 35%;
 margin-top: 2%;
 height: 50Px;
 width: 200px;
+border-radius: 6px
 }
 input {
 	width: 100%;
@@ -42,9 +55,34 @@ a:hover{
 	text-decoration: underline;
 }
 footer {
-	position: relative;
+	position: fixed;
+	bottom: 0;
 	width: 100%;
+	padding-bottom: 0px;
+	border: solid;
+	border-width: thin;
+	border-color: #F9F9F9;
+    box-shadow: 1px 1px 3px #888888;
+    background-color: #F2F2F2;
 	display: inline-block;
 	margin-top: 20%;
-	background-color: white;
+    padding-left: 20px;
+    margin-left: -10px;
+}
+.footer-right {
+	position: relative;
+	float: right;
+	display: inline;
+}
+
+
+li {list-style-type: none;
+	display: inline;
+
+}
+.sign-in{
+ background:-webkit-linear-gradient(top,#4387fd,#4683ea);
+ display: inline-block;
+ line-height: 12px;
+ padding: 12px
 }
